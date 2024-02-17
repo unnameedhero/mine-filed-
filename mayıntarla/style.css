@@ -1,0 +1,47 @@
+.btn{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    visibility: hidden;
+    background-color: gray;
+    color: white;
+   
+}
+#box{
+    width: max-content;
+    margin: 5% auto;
+    
+    
+}
+#start{
+    width: 379px;
+    height: 70px;
+    position:absolute;
+    top: 120px;
+    background-color: gray;
+    border-radius: 5%;
+    
+}
+:root{
+    background-color: black;
+}
+label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#start:hover{
+    background-color: rgb(107, 104, 104);
+}
+.btn:hover{
+    background-color: rgb(107, 104, 104);
+}
+span{
+    color: gray;
+    position: absolute;
+    top: 10px;
+    margin-bottom: 20px;
+    visibility: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(8, 8, 8);
+}
